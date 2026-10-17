@@ -1,0 +1,13 @@
+import React from 'react';
+
+export default function BrandLogo() {
+  return <span className="brand-lockup" aria-hidden="true">
+    <svg className="brand-emblem" width="36" height="36" viewBox="0 0 36 36" fill="none">
+      <rect width="36" height="36" rx="9" fill="#173E70"/>
+      <path d="M10 27V9h8.5a6 6 0 0 1 0 12H15v6h-5Zm5-11h3.3a1.5 1.5 0 0 0 0-3H15v3Z" fill="white"/>
+      <path d="m19 21 5 6h6l-6.8-8.1A7.9 7.9 0 0 1 19 21Z" fill="#77BDD8"/>
+      <path d="M26 7h3v3h-3z" fill="#77BDD8"/>
+    </svg>
+    <span className="brand-wordmark">Report<span>Craft</span></span>
+  </span>;
+}

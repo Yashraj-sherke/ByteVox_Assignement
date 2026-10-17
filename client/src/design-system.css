@@ -1,0 +1,87 @@
+/* References and rationale: /DESIGN.md. Keep theme decisions together. */
+:root {
+  --font-sans: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-data: 'IBM Plex Mono', ui-monospace, monospace;
+  --accent-primary: #2456a6;
+  --accent-primary-hover: #194383;
+  --accent-soft: #edf3fc;
+  --accent-ink: #2456a6;
+  --chart-primary: #4779b5;
+  --bg-primary: #f4f6f8;
+  --bg-card: #ffffff;
+  --bg-secondary: #f7f9fb;
+  --bg-card-hover: #f6f9fd;
+  --border-color: #dce2e9;
+  --border-highlight: #91acd0;
+  --text-primary: #1c2a3b;
+  --text-secondary: #536276;
+  --text-muted: #64748b;
+}
+:root[data-theme=dark] {
+  --accent-primary: #8eb8ef;
+  --accent-primary-hover: #b8d4f7;
+  --accent-soft: #21344c;
+  --accent-ink: #b0cff6;
+  --chart-primary: #7ba9e0;
+  --bg-primary: #131a23;
+  --bg-card: #1b2531;
+  --bg-secondary: #202d3c;
+  --bg-card-hover: #233244;
+  --border-color: #344256;
+  --border-highlight: #668cb9;
+  --text-primary: #e7edf5;
+  --text-secondary: #b6c3d4;
+  --text-muted: #9baec4;
+}
+body { font-size:14px; }
+h1,h2,h3,h4 { letter-spacing:-.025em; }
+.navbar,.sidebar { background:var(--bg-card); }
+.nav-brand { letter-spacing:-.7px; color:var(--text-primary); }
+.brand-mark { border-radius:6px; background:#2456a6; }
+.btn { font-size:13px; border-radius:6px; box-shadow:none; }
+.btn-sm { font-size:12px; }
+.btn-primary,[data-theme=dark] .btn-primary { background:#2456a6; color:#fff; box-shadow:0 1px 2px #10182814; }
+.btn-primary:hover,[data-theme=dark] .btn-primary:hover { background:#194383; box-shadow:0 3px 8px #10182818; }
+.btn-secondary,[data-theme=dark] .btn-secondary { background:var(--bg-card); border-color:var(--border-color); color:var(--text-primary); }
+.btn-secondary:hover,[data-theme=dark] .btn-secondary:hover { background:var(--bg-card-hover); border-color:var(--border-highlight); color:var(--accent-primary); }
+.btn-icon:hover,[data-theme=dark] .btn-icon:hover { background:var(--accent-soft); color:var(--accent-ink); }
+.delete-action:hover,[data-theme=dark] .delete-action:hover { color:var(--danger); background:var(--danger-bg); }
+.sidebar nav a.active,[data-theme=dark] .sidebar nav a.active,.sidebar nav a:hover,[data-theme=dark] .sidebar nav a:hover { background:var(--accent-soft); color:var(--accent-ink); }
+.avatar,.workspace-avatar,[data-theme=dark] .avatar,[data-theme=dark] .workspace-avatar { background:var(--accent-soft); color:var(--accent-ink); border-color:var(--border-color); }
+.count,[data-theme=dark] .count { background:var(--bg-secondary); color:var(--text-secondary); border-color:var(--border-color); }
+.theme-track { background:#d4dfef; }.theme-toggle[aria-checked=true] .theme-track { background:#4779b5; }
+.page-heading h1,.editor-heading h1 { font-weight:600; letter-spacing:-.035em; }
+.library-name>a { font-size:14px; }.library-name p,.library-row time { font-size:12px; }
+.library-columns { font-size:10px; letter-spacing:.06em; }
+.library-row { padding-block:20px; }.library-footnote { font-size:12px; }
+.rail-source>div>a:first-child { font-size:13px; }.rail-source p,.source-profile { font-size:12px; }
+.data-rail .upload-copy p { font-size:13px; }.data-rail .upload-copy span { font-size:11px; }
+.report-block-grid { gap:16px; }.report-block { padding:22px; }
+.block-header h3 { font-size:15px; }.report-block-metric .block-header { margin-bottom:12px!important; }
+.metric-value-row { padding:18px 0 24px; }
+.number-clickable { border-bottom-color:var(--border-highlight); color:var(--accent-primary); }
+.number-clickable.metric-value { font-family:var(--font-sans); font-size:46px; font-weight:500; letter-spacing:-1.5px; font-variant-numeric:tabular-nums; }
+.group-value,[data-theme=dark] .group-value { color:var(--text-primary)!important; font-family:var(--font-data); font-size:12px!important; }
+.group-meter,[data-theme=dark] .group-meter { background:var(--accent-soft); }
+.group-meter i,[data-theme=dark] .group-meter i { background:var(--chart-primary); }
+.show-work-trigger,[data-theme=dark] .show-work-trigger { color:var(--accent-ink); background:var(--accent-soft); border-color:var(--border-color); font-size:11px; }
+.badge-number,[data-theme=dark] .badge-number { color:var(--accent-ink); background:var(--accent-soft); }
+.report-block-text::before { background:var(--chart-primary); }
+.report-block-text,[data-theme=dark] .report-block-text { background:var(--bg-card); }
+.report-block th,[data-theme=dark] .report-block th { background:var(--bg-secondary); color:var(--text-secondary); font-size:11px; letter-spacing:.035em; }
+.report-block td,[data-theme=dark] .report-block td { color:var(--text-primary); font-size:13px; padding-block:12px; }
+.report-block tr:hover td,[data-theme=dark] .report-block tr:hover td { background:var(--bg-card-hover); }
+.report-block .table-responsive { border-color:var(--border-color); }
+.report-block-table th { position:sticky; top:0; }
+:focus-visible { outline:3px solid var(--chart-primary); outline-offset:3px; }
+@media(max-width:650px) { .report-block{padding:18px}.number-clickable.metric-value{font-size:38px}.library-name>a{font-size:14px}.show-work-trigger{font-size:10px}.library-footnote{font-size:11px} }
+@media(prefers-reduced-motion:no-preference) { .group-meter i { animation:reveal-bar .45s ease-out both; transform-origin:left; } @keyframes reveal-bar { from{transform:scaleX(0)} to{transform:scaleX(1)} } }
+@media print { :root,:root[data-theme=dark]{--text-primary:#000;--text-secondary:#333;--bg-card:#fff;--bg-primary:#fff;} }
+
+.brand-lockup{display:inline-flex;align-items:center;gap:10px;white-space:nowrap;line-height:1}
+.brand-emblem{display:block;flex-shrink:0}
+.brand-wordmark{font-family:var(--font-sans);font-size:22px;font-weight:600;letter-spacing:-.85px;color:var(--text-primary)}
+.brand-wordmark>span{font-weight:400}
+.nav-brand:hover .brand-wordmark{color:var(--accent-primary)}
+@media(max-width:650px){.brand-emblem{width:31px;height:31px}.brand-wordmark{font-size:20px}.brand-lockup{gap:8px}}
+@media(max-width:380px){.brand-emblem{width:28px;height:28px}.brand-wordmark{font-size:17px;letter-spacing:-.6px}.brand-lockup{gap:7px}}

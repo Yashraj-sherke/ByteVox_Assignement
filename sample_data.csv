@@ -1,0 +1,97 @@
+order_id,date,product,category,quantity,unit_price,total,region,status,notes
+1001,2024-01-15,Wireless Mouse,Electronics,2,29.99,59.98,North,Completed,Express shipping
+1002,2024-01-16,USB-C Cable,Electronics,5,9.99,49.95,South,Completed,
+1003,01/17/2024,LED Desk Lamp,Home & Office,1,45.00,45.00,North,Completed,Gift wrap requested
+1004,2024-01-18,Running Shoes,Clothing,1,89.95,89.95,East,Completed,Size 10
+1005,2024-01-19,Bluetooth Speaker,Electronics,3,34.99,104.97,West,Completed,Color: Black
+1006,2024-01-20,Notebook Set,Stationery,10,4.99,49.90,North,Completed,
+1007,Jan 22 2024,Coffee Mug,Home & Office,4,12.50,50.00,South,Completed,Ceramic
+1008,2024-01-23,Yoga Mat,Sports,1,29.99,29.99,East,Completed,Purple
+1009,2024-01-24,Phone Case,Electronics,,19.99,,North,Pending,
+1010,2024-01-25,Winter Jacket,Clothing,1,129.99,129.99,West,Completed,
+1011,2024-01-26, Desk Organizer ,Home & Office,2,22.00,44.00,North,Completed,
+1012,2024/01/27,Wireless Earbuds,Electronics,1,59.99,59.99,South,Completed,Noise cancelling
+1013,2024-01-28,Resistance Bands,Sports,3,14.99,44.97,East,Completed,Set of 5
+1014,2024-01-29,Ballpoint Pens,Stationery,20,1.99,39.80,West,Completed,Blue ink
+1015,2024-01-30,Smart Watch,Electronics,1,199.99,199.99,North,Completed,
+1016,2024-02-01,T-Shirt,Clothing,3,24.99,74.97,South,Completed,Medium - Cotton
+1017,2024-02-02,Bookshelf,Home & Office,1,149.99,149.99,East,Shipped,Assembly required
+1018,2024-02-03,Tennis Racket,Sports,N/A,79.99,,West,Pending,Grip size unknown
+1019,2024-02-04,Highlighters,Stationery,12,2.49,29.88,North,Completed,Assorted colors
+1020,2024-02-05,Laptop Stand,Electronics,2,39.99,79.98,South,Completed,Aluminum
+1021,2024-02-06,Rain Jacket,Clothing,1,69.99,69.99,,Completed,Waterproof
+1022,02/07/2024,Throw Pillow,Home & Office,4,18.99,75.96,East,Completed,
+1023,2024-02-08,Dumbbell Set,Sports,1,89.99,89.99,West,Completed,20lb pair
+1024,2024-02-09,Sticky Notes,Stationery,15,3.49,52.35,North,Completed,3x3 inch
+1025,2024-02-10,HDMI Cable,Electronics,3,11.99,35.97,South,Completed,6ft
+1026,2024-02-11,Polo Shirt,Clothing,2,34.99,69.98,East,Completed,Navy blue
+1027,2024-02-12,Wall Clock,Home & Office,1,27.99,27.99,West,Completed,Silent mechanism
+1028,2024-02-13,Jump Rope,Sports,2,8.99,17.98,North,Completed,Adjustable
+1029,bad_date,Fountain Pen,Stationery,1,24.99,24.99,South,Completed,Black ink
+1030,2024-02-15,Power Bank,Electronics,1,44.99,44.99,East,Completed,10000mAh
+1031,2024-02-16,Hoodie,Clothing,-1,49.99,-49.99,West,Returned,Refund processed
+1032,2024-02-17,Cutting Board,Home & Office,2,19.99,39.98,North,Completed,Bamboo
+1033,2024-02-18,Basketball,Sports,1,29.99,29.99,South,Completed,Official size
+1034,2024-02-19,Correction Tape,Stationery,8,3.99,31.92,East,Completed,
+1035,2024-02-20,Webcam,Electronics,1,69.99,69.99,West,Completed,1080p HD
+1036,2024-02-21,Dress Shirt,Clothing,1,59.99,TBD,North,Processing,
+1037,Feb 22 2024,Candle Set,Home & Office,3,15.99,47.97,South,Completed,Scented - Lavender
+1038,2024-02-23,Swim Goggles,Sports,2,16.99,33.98,East,Completed,Anti-fog
+1039,2024-02-24,Marker Set,Stationery,5,6.99,34.95,West,Completed,Whiteboard markers
+1040,2024-02-25,Keyboard,Electronics,1,74.99,74.99,North,Completed,Mechanical - Cherry MX
+1041,2024-02-26,Jeans,Clothing,2,44.99,89.98,South,Completed,Slim fit
+1042,2024-02-27,Picture Frame,Home & Office,3,14.99,44.97,East,Completed,8x10
+1043,2024-02-28,Yoga Block,Sports,2,11.99,23.98,West,Completed,Cork
+1044,2024-02-29,Paper Clips,Stationery,100,0.05,5.00,North,Completed,Assorted sizes
+1045,2024-03-01,Monitor,Electronics,1,299.99,299.99,South,Completed,27 inch 4K
+1046,2024-03-02,Sunglasses,Clothing,1,39.99,39.99,East,Completed,UV protection
+1047,2024-03-03,Throw Blanket,Home & Office,2,34.99,69.98,West,Completed,Fleece
+1048,2024-03-04,Cycling Gloves,Sports,1,22.99,22.99,North,Completed,Padded
+1049,2024-03-05,Envelope Pack,Stationery,50,0.10,5.00,South,Completed,A4 size
+1050,2024-03-06,USB Hub,Electronics,2,24.99,49.98,East,Completed,4-port USB 3.0
+1051,2024-03-07,Sneakers,Clothing,1,79.99,79.99,West,Completed,White
+1052,2024-03-08,Soap Dispenser,Home & Office,2,9.99,19.98,North,Completed,Stainless steel
+1053,2024-03-09,Frisbee,Sports,3,7.99,23.97,South,Completed,175g
+1054,2024-03-10,Planner 2024,Stationery,1,18.99,18.99,East,Completed,Weekly layout
+1055,2024-03-11,Mouse Pad,Electronics,4,8.99,35.96,West,Completed,XL size
+1056,2024-03-12,Scarf,Clothing,2,19.99,39.98,North,Completed,Wool blend
+1057,03/13/2024,Plant Pot,Home & Office,3,13.99,41.97,South,Completed,Ceramic
+1058,2024-03-14,Water Bottle,Sports,2,14.99,29.98,,Completed,BPA free
+1059,2024-03-15,Stapler,Stationery,1,12.99,12.99,East,Completed,Heavy duty
+1060,2024-03-16,Charger,Electronics,1,29.99,29.99,West,Completed,65W USB-C
+1061,2024-03-17,Beanie,Clothing,3,14.99,44.97,North,Completed,Knitted
+1062,2024-03-18,Coaster Set,Home & Office,1,16.99,16.99,South,Completed,Set of 6 - Cork
+1063,2024-03-19,Shin Guards,Sports,1,18.99,18.99,East,Completed,Youth size
+1064,2024-03-20,Binder,Stationery,4,5.99,23.96,West,Completed,1 inch - 3 ring
+1065,2024-03-21,Portable SSD,Electronics,1,109.99,109.99,North,Completed,1TB
+1066,,Sandals,Clothing,1,34.99,34.99,South,Completed,Size 9
+1067,2024-03-23,Toilet Brush,Home & Office,1,8.99,8.99,East,Completed,
+1068,2024-03-24,Resistance Tube,Sports,2,11.99,23.98,West,Completed,Medium tension
+1069,2024-03-25,Ruler Set,Stationery,3,2.99,8.97,North,Completed,30cm
+1070,2024-03-26,Flash Drive,Electronics,5,7.99,39.95,South,Completed,32GB
+1071,2024-03-27,Cargo Shorts,Clothing,2,29.99,59.98,East,Completed,
+1072,2024-03-28,Bath Towel Set,Home & Office,1,39.99,39.99,West,Completed,Set of 4
+1073,2024-03-29,Ping Pong Balls,Sports,12,0.99,11.88,North,Completed,Tournament grade
+1074,2024-03-30,Pencil Case,Stationery,2,7.99,15.98,South,Completed,Canvas
+1075,2024-03-31,Ethernet Cable,Electronics,3,6.99,20.97,East,Completed,Cat6 - 10ft
+1076,2024-04-01,Flip Flops,Clothing,2,12.99,25.98,West,Completed,Beach
+1077,2024-04-02,Shower Curtain,Home & Office,1,24.99,24.99,North,Completed,Waterproof
+1078,2024-04-03,Boxing Gloves,Sports,1,44.99,44.99,South,Completed,12oz
+1079,2024-04-04,Tape Dispenser,Stationery,2,6.99,13.98,East,Completed,Desktop
+1080,2024-04-05,Screen Protector,Electronics,10,4.99,49.90,West,Completed,Tempered glass
+1081,2024-04-06,null,Clothing,1,54.99,54.99,North,Completed,Color: Red
+1082,2024-04-07,Laundry Basket,Home & Office,1,19.99,19.99,South,Completed,Foldable
+1083,2024-04-08,Knee Brace,Sports,2,21.99,43.98,East,Completed,Compression
+1084,2024-04-09,Whiteboard,Stationery,1,34.99,34.99,West,Completed,24x36 inch
+1085,2024-04-10,Speaker Cable,Electronics,2,8.99,17.98,North,Completed,
+1086,2024-04-11,Vest,Clothing,1,42.99,42.99,South,Completed,Puffer
+1087,2024-04-12,Ironing Board,Home & Office,1,44.99,44.99,East,Completed,Adjustable height
+1088,2024-04-13,Skipping Rope,Sports,3,6.99,20.97,West,Completed,Kids
+1089,2024-04-14,Scissors,Stationery,2,4.99,9.98,North,Completed,
+1090,2024-04-15,Surge Protector,Electronics,1,19.99,19.99,South,Completed,6 outlet
+1001,2024-04-16,Wireless Mouse,Electronics,1,29.99,29.99,East,Completed,Duplicate order ID
+1092,2024-04-17,Leather Belt,Clothing,1,0,0,West,Completed,Free with purchase
+1093,2024-04-18,Shoe Rack,Home & Office,1,29.99,99.99,North,Completed,Total doesn't match
+1094,2024-04-19,Golf Balls,Sports,24,1.99,47.76,South,Completed,Practice balls
+1095,2024-04-20,Glue Sticks,Stationery,10,1.49,14.90,East,Completed,
+,,,,,,,,,,
